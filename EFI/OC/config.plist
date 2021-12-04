@@ -556,6 +556,42 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>IntelBluetoothFirmware.kext</string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IntelBluetoothFirmware</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>IntelBluetoothInjector.kext</string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
                     <string>x86_64</string>
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
@@ -1293,10 +1329,10 @@
             <dict>
                 <key>AdviseFeatures</key>
                 <false/>
-                <key>MLB</key>
-                <string>C028137014NKN2RA8</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
+                <key>MLB</key>
+                <string>C028137014NKN2RA8</string>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
@@ -1458,8 +1494,6 @@
                 <false/>
                 <key>TextRenderer</key>
                 <string>BuiltinGraphics</string>
-                <key>UIScale</key>
-                <integer>-1</integer>
                 <key>UgaPassThrough</key>
                 <false/>
             </dict>
