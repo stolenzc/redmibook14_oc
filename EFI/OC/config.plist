@@ -439,6 +439,8 @@
                     <data>pT4AAA==</data>
                     <key>disable-external-gpu</key>
                     <data>AQAAAA==</data>
+                    <key>enable-hdmi-dividers-fix</key>
+                    <data>AQAAAA==</data>
                     <key>enable-hdmi20</key>
                     <data>AQAAAA==</data>
                     <key>framebuffer-con1-enable</key>
@@ -446,6 +448,12 @@
                     <key>framebuffer-con1-pipe</key>
                     <data>CgAAAA==</data>
                     <key>framebuffer-con1-type</key>
+                    <data>AAgAAA==</data>
+                    <key>framebuffer-con2-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con2-pipe</key>
+                    <data>CgAAAA==</data>
+                    <key>framebuffer-con2-type</key>
                     <data>AAgAAA==</data>
                     <key>framebuffer-fbmem</key>
                     <data>AACQAA==</data>
@@ -700,13 +708,31 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>USBPorts.kext</string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
                     <string>x86_64</string>
                     <key>BundlePath</key>
                     <string>USBInjectAll.kext</string>
                     <key>Comment</key>
                     <string>V0.7.7</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/USBInjectAll</string>
                     <key>MaxKernel</key>
