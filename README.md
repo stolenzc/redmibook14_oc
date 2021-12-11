@@ -1,19 +1,24 @@
 ## Redmibook 14 黑苹果EFI
 
 配置：
-- cpu: i7 8565U Whiskey Lake
-- 内存: 8GB
-- 网卡: 
-- 声卡: Realtek ALC256M
-- 显卡: GeForce MX250, Intel® UHD Graphics 620
-- 硬盘: 512GB 三星PM871b SATA3固态
+| 硬件 | 型号                                   |
+| :--- | :------------------------------------- |
+| CPU  | i7 8565U Whiskey Lake                  |
+| 内存 | 三星8GB                                |
+| 网卡 | intel 9462NGW                          |
+| 声卡 | Realtek ALC256M                        |
+| 显卡 | GeForce MX250, Intel® UHD Graphics 620 |
+| 硬盘 | 512GB 三星PM871b SATA3固态             |
 
 驱动状况:
 
 - [x] WIFI
+- [x] 蓝牙
+- [x] USB
 - [x] 睡眠唤醒
 - [x] 声音
-- [ ] hdmi 输出
+- [x] hdmi 输出
+- [ ] 独立显卡（无解）
 
 注意事项
 

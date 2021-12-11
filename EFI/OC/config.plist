@@ -433,36 +433,30 @@
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
+                    <key>#AAPL,ig-platform-id</key>
+                    <data>AAClPg==</data>
+                    <key>#device-id</key>
+                    <data>pT4AAA==</data>
                     <key>AAPL,ig-platform-id</key>
                     <data>CQClPg==</data>
                     <key>device-id</key>
                     <data>pT4AAA==</data>
+                    <key>enable-blacklight-register-fix</key>
+                    <data>AQAAAA==</data>
+                    <key>force-online</key>
+                    <data>AQAAAA==</data>
                     <key>disable-external-gpu</key>
                     <data>AQAAAA==</data>
-                    <key>enable-hdmi-dividers-fix</key>
-                    <data>AQAAAA==</data>
-                    <key>enable-hdmi20</key>
+                    <key>framebuffer-con1-busid</key>
                     <data>AQAAAA==</data>
                     <key>framebuffer-con1-enable</key>
                     <data>AQAAAA==</data>
-                    <key>framebuffer-con1-pipe</key>
-                    <data>CgAAAA==</data>
                     <key>framebuffer-con1-type</key>
                     <data>AAgAAA==</data>
-                    <key>framebuffer-con2-enable</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-con2-pipe</key>
-                    <data>CgAAAA==</data>
-                    <key>framebuffer-con2-type</key>
-                    <data>AAgAAA==</data>
-                    <key>framebuffer-fbmem</key>
-                    <data>AACQAA==</data>
                     <key>framebuffer-patch-enable</key>
                     <data>AQAAAA==</data>
-                    <key>framebuffer-stolenmem</key>
-                    <data>AAAwAQ==</data>
-                    <key>framebuffer-unifiedmem</key>
-                    <data>AAAAgA==</data>
+                    <key>model</key>
+                    <string>Intel Iris Plus Graphics 655</string>
                 </dict>
             </dict>
             <key>Delete</key>
